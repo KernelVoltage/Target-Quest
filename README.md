@@ -8,7 +8,7 @@
 
 | Core Gameplay & Bow Mechanics | Procedural Multi-Platform Puzzle |
 | :---: | :---: |
-| ![Gameplay 1](Image1.jpg) | ![Gameplay 2](Image2.jpg) |
+| ![Gameplay 1](Image1.png) | ![Gameplay 2](Image2.png) |
 
 ---
 
