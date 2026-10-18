@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://cjxfhf7ses2sj"]
+
+[ext_resource type="Texture2D" uid="uid://bj4qpfyomiwkh" path="res://Free_Asset_Pack/arrow.png" id="1_gqemn"]
+[ext_resource type="Script" path="res://Script/arrow.gd" id="1_uavxm"]
+
+[node name="Arrow" type="Area2D"]
+z_index = 1
+script = ExtResource("1_uavxm")
+
+[node name="Arrow" type="Sprite2D" parent="."]
+position = Vector2(-242, -2.1)
+texture = ExtResource("1_gqemn")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+position = Vector2(-242, -2.1)
+polygon = PackedVector2Array(209, -9, 210, -27, 283, -3, 213, 26, 209, 12, -152, 8, -168, 27, -192, 37, -264, 40, -240, 8, -287, 8, -286, -6, -238, -7, -267, -43, -184, -37, -152, -11)
+
+[node name="RayCast2D" type="RayCast2D" parent="."]
+target_position = Vector2(145, 0)

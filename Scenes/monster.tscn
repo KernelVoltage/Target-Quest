@@ -1,0 +1,75 @@
+[gd_scene load_steps=12 format=3 uid="uid://dy5gg3r5gy2pq"]
+
+[ext_resource type="Texture2D" uid="uid://dxqqqe1poim6c" path="res://Free_Asset_Pack/NPC/Torso.png" id="1_o3hmw"]
+[ext_resource type="Texture2D" uid="uid://cyjltbtkunn1i" path="res://Free_Asset_Pack/NPC/Head.png" id="2_h1h61"]
+[ext_resource type="Texture2D" uid="uid://b3ac22ri1tfgq" path="res://Free_Asset_Pack/NPC/Right_Upper_arm.png" id="3_i2c1q"]
+[ext_resource type="Texture2D" uid="uid://b4nb41wfbxtd0" path="res://Free_Asset_Pack/NPC/Right_Lower_arm.png" id="4_y1jgs"]
+[ext_resource type="Texture2D" uid="uid://dg63ppgmlsfqh" path="res://Free_Asset_Pack/NPC/Left_Upper_arm.png" id="5_1lc2f"]
+[ext_resource type="Texture2D" uid="uid://bc4c3fxm37wfq" path="res://Free_Asset_Pack/NPC/Left_Lower_arm.png" id="6_5ae13"]
+[ext_resource type="Texture2D" uid="uid://bs17tjm42rm31" path="res://Free_Asset_Pack/NPC/Left_Upper_leg.png" id="7_8xxwg"]
+[ext_resource type="Texture2D" uid="uid://bc7cdel1ty8qo" path="res://Free_Asset_Pack/NPC/Left_Lower_leg.png" id="8_piudp"]
+[ext_resource type="Texture2D" uid="uid://1vpki2hsuxx4" path="res://Free_Asset_Pack/NPC/Right_Upper_leg.png" id="9_r2nm3"]
+[ext_resource type="Texture2D" uid="uid://dwiaebi3xd0m" path="res://Free_Asset_Pack/NPC/Right_Lower_leg.png" id="10_kp4t7"]
+[ext_resource type="Texture2D" uid="uid://bkb7tom0fdn3c" path="res://Free_Asset_Pack/NPC/Boot.png" id="11_5p2pr"]
+
+[node name="Monster" type="CharacterBody2D"]
+
+[node name="Body" type="Node2D" parent="."]
+
+[node name="Torso" type="Sprite2D" parent="Body"]
+position = Vector2(0, 205)
+texture = ExtResource("1_o3hmw")
+
+[node name="Head" type="Sprite2D" parent="Body/Torso"]
+position = Vector2(2, -220)
+texture = ExtResource("2_h1h61")
+
+[node name="RightUpperArm" type="Sprite2D" parent="Body/Torso"]
+z_index = -1
+position = Vector2(99, -39)
+texture = ExtResource("3_i2c1q")
+
+[node name="RightLowerArm" type="Sprite2D" parent="Body/Torso/RightUpperArm"]
+z_index = 1
+position = Vector2(33, 149)
+texture = ExtResource("4_y1jgs")
+
+[node name="LeftUpperArm" type="Sprite2D" parent="Body/Torso"]
+z_index = -1
+position = Vector2(-104, -36)
+texture = ExtResource("5_1lc2f")
+
+[node name="LeftLowerArm" type="Sprite2D" parent="Body/Torso/LeftUpperArm"]
+z_index = 1
+position = Vector2(-35, 146)
+texture = ExtResource("6_5ae13")
+
+[node name="LeftUpperLeg" type="Sprite2D" parent="Body/Torso"]
+z_index = -1
+position = Vector2(-41, 172)
+texture = ExtResource("7_8xxwg")
+
+[node name="LeftLowerLeg" type="Sprite2D" parent="Body/Torso/LeftUpperLeg"]
+z_index = -1
+position = Vector2(-11, 140)
+texture = ExtResource("8_piudp")
+
+[node name="RightUpperLeg" type="Sprite2D" parent="Body/Torso"]
+z_index = -1
+position = Vector2(44, 173)
+texture = ExtResource("9_r2nm3")
+
+[node name="RightLowerLeg" type="Sprite2D" parent="Body/Torso/RightUpperLeg"]
+z_index = -1
+position = Vector2(10, 151)
+texture = ExtResource("10_kp4t7")
+
+[node name="Boot" type="Sprite2D" parent="Body/Torso"]
+position = Vector2(-84, 405)
+scale = Vector2(0.55, 0.55)
+texture = ExtResource("11_5p2pr")
+
+[node name="Boot2" type="Sprite2D" parent="Body/Torso"]
+position = Vector2(25, 413)
+scale = Vector2(0.55, 0.55)
+texture = ExtResource("11_5p2pr")
