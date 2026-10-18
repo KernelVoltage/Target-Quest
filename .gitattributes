@@ -1,0 +1,6 @@
+* export-ignore
+Free_Asset_Pack/ export=false
+Scenes/ export=false
+Script/ export=false
+project.godot export=false
+Icon.png export=false
