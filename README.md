@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="icon.png" width="120" alt="Target Quest Icon">
+  <img src="Icon.png" width="120" alt="Target Quest Icon">
 </p>
 
 # Target Quest 🎯🏹
