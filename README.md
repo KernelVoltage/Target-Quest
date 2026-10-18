@@ -1,6 +1,10 @@
+<p align="center">
+  <img src="icon.png" width="120" alt="Target Quest Icon">
+</p>
+
 # Target Quest 🎯🏹
 
-**Target Quest** is a 2D physics-based arcade archery puzzle game developed in **Godot Engine**. It blends precise tactical angle calculation, smooth projectile mechanics, and infinite procedural puzzle generation.
+**Target Quest** is a 2D physics-based arcade archery puzzle game developed in **Godot Engine**[cite: 10]. It blends precise tactical angle calculation, smooth projectile mechanics, and infinite procedural puzzle generation[cite: 10].
 
 ---
 
